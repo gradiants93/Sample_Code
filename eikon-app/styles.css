@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap");
+body {
+    background-color: #0a1b2b;
+    font-family: "Inter", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 200 !important;
+    line-height: 50px;
+    display: inline;
+}
+input {
+    width: 40%;
+}
+.histogram {
+    position: absolute;
+    padding-left: 5em;
+    display: flex;
+    flex-direction: column;
+}
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+svg.svg-container {
+    margin-top: 5px;
+    border: thin solid black;
+    margin-right: 5px;
+    width: 70%;
+    overflow: scroll;
+    background: rgba(255,255,255,.05);
+}
+div.svg-parent {
+    padding-right: 5px;
+}
+rect {
+    fill: #5652dc;
+}
+rect:hover {
+    fill: #ffafa8;
+}
+.text {
+    fill: white;
+    font-family: sans-serif
+}
+.axis {
+    stroke: white;
+}
